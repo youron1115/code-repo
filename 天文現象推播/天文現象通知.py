@@ -40,11 +40,11 @@ def star():
         #把標題加進暫存字串中
         reformat += "\n\n"
         reformat += i.text
-        """
+        
         print(num)
         print(i.text)
         print("\n")
-        """
+        
         times-=1
         num+=1
     report.append(reformat)
