@@ -5,7 +5,7 @@ import datetime
 tonow = datetime.datetime.now()
 report = []
 
-driverPath='C:/Users/USER/Downloads/chromedriver.exe'
+driverPath=r"C:\Users\acer\Downloads\chromedriver-win64\chromedriver.exe"
 browser=webdriver.Chrome(driverPath)
 
 url='https://www.cwb.gov.tw/V8/C/K/astronomy_month.html'
@@ -40,9 +40,11 @@ def star():
         #把標題加進暫存字串中
         reformat += "\n\n"
         reformat += i.text
+        """
         print(num)
         print(i.text)
         print("\n")
+        """
         times-=1
         num+=1
     report.append(reformat)
