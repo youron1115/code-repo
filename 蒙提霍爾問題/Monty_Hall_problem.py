@@ -1,6 +1,8 @@
 import random
 import numpy as np
 
+import matplotlib.pyplot as plt
+
 def set_prize():
     
     prize = np.random.randint(0,3,1) # 生成1-3的隨機數，1個
@@ -76,7 +78,12 @@ def monty_hall(times):
     print("不換門獲得獎品次數:",prize_time_with_not_change,"機率為:",prize_time_with_not_change/times)
     print("換門獲得山羊次數:",goat_time_with_change,"機率為:",goat_time_with_change/times)
     print("不換門獲得山羊次數:",goat_time,"機率為:",goat_time/times)
-
+    
+    plt.title('Monty Hall problem with '+str(times)+' times')
+    plt.xlabel('change or not')
+    plt.ylabel('probability')
+    plt.bar(['change','not change'],[prize_time_with_change/times,prize_time_with_not_change/times])
+    plt.show()
 times_set=1000
 monty_hall(times_set)
         
