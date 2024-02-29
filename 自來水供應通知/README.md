@@ -5,8 +5,8 @@ WaterOff Query is a web crawler and notification system that checks the status o
 # Token of Line Notify
 token='op5pgVh67ROewXEYzgB7vyaz39k4cchVeR3G1WjD1z5'
 
-# Query Location: National Yunlin University of Science and Technology
-Change the location of the query by modifying the `address` variable in the `wateroff_Query.py` file.
+# Query Location
+Change the location of the query by modifying the `address` variable in the `wateroff_Query.py` file. The address initially set is the address of National Yunlin University of Science and Technology.
 ```
 address="雲林縣斗六市大學路三段123號"
 ```
