@@ -10,3 +10,16 @@ Change the location of the query by modifying the `address` variable in the `wat
 ```
 address="雲林縣斗六市大學路三段123號"
 ```
+
+# Result of the query
+1. **查無案件**:回傳**正常供水**    
+2. 查詢結果為**降壓**，回傳
+    1. 查詢時間
+    2. 查詢結果為降壓
+    3. 降壓地區
+    4. 開始與結束時間
+3. 查詢結果為**停水**，回傳
+    1. 查詢時間
+    2. 查詢結果為停水
+    3. 停水地區
+    4. 開始與結束時間
