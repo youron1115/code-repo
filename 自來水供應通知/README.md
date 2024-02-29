@@ -1,6 +1,6 @@
 # WaterOff Query web crawler and notification
 
-WaterOff Query is a web crawler and notification system that checks the status of water supply in the city of location . It is a simple Python script that uses the `selenium` and `requests` libraries to scrape the [TAIWAN WATER COPORATION](https://wateroffmap.water.gov.tw/wateroffmap/map/search) website and send a notification to the user's line when wateroff_Query.py is being executed.
+WaterOff Query is a web crawler and notification system that checks the status of water supply of location . It is a simple Python script that uses the `selenium` and `requests` libraries to scrape the [TAIWAN WATER COPORATION](https://wateroffmap.water.gov.tw/wateroffmap/map/search) website and send a notification to the user's LINE when wateroff_Query.py is being executed.
 
 ### Token of Line Notify
 Change to the user's token by modifying the `token` variable.
