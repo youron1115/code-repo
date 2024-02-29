@@ -30,4 +30,4 @@ address="雲林縣斗六市大學路三段123號"#Variable address should be cha
     4. 開始與結束時間
 
 ### Msg of Query result
-![Error occur about the picture.](/Line notification.png "Picture about the notification of LINE")
+![Error occur about the picture.](https://github.com/youron1115/Code-repo/blob/main/%E8%87%AA%E4%BE%86%E6%B0%B4%E4%BE%9B%E6%87%89%E9%80%9A%E7%9F%A5/Line%20notification.png?raw=true "Picture about the notification of LINE")
