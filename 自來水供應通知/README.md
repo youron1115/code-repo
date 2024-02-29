@@ -22,9 +22,12 @@ address="雲林縣斗六市大學路三段123號"#Variable address should be cha
     2. 查詢結果為降壓
     3. 降壓地區
     4. 開始與結束時間
-    
+
 3. 查詢結果為**停水**，回傳
     1. 查詢時間
     2. 查詢結果為停水
     3. 停水地區
     4. 開始與結束時間
+
+### Msg of Query result
+![Error occur about the picture.](D:\Code-repo\自來水供應通知\Line notification.png "Picture about the notification of LINE")
