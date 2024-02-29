@@ -19,15 +19,19 @@ address="雲林縣斗六市大學路三段123號"#Variable address should be cha
   
 2. 查詢結果為**降壓**，回傳
     1. 查詢時間
-    2. 查詢結果為降壓
-    3. 降壓地區
-    4. 開始與結束時間
+    2. 查詢的地址
+    3. 查詢結果為降壓
+    4. 降壓地區
+    5. 開始與結束時間
+    6. 案件降壓地區
 
 3. 查詢結果為**停水**，回傳
     1. 查詢時間
-    2. 查詢結果為停水
-    3. 停水地區
-    4. 開始與結束時間
+    2. 查詢的地址
+    3. 查詢結果為停水
+    4. 停水地區
+    5. 開始與結束時間
+    6. 案件降壓地區
 
 ### Msg of Query result
 ![Error occur about the picture.](https://github.com/youron1115/Code-repo/blob/main/%E8%87%AA%E4%BE%86%E6%B0%B4%E4%BE%9B%E6%87%89%E9%80%9A%E7%9F%A5/Line%20notification.png?raw=true "Picture about the notification of LINE")
