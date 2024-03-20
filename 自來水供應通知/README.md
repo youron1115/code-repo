@@ -5,13 +5,13 @@ WaterOff Query is a web crawler and notification system that checks the status o
 ### Token of Line Notify
 Change to the user's token by modifying the `token` variable.
 ```python
-token='op5pgVh67ROewXEYzgB7vyaz39k4cchVeR3G1WjD1z5'#Variable token should be changed to the user's token.
+token=''#Variable "token" should be changed to the user's token.
 ```
 
 ### Query Location
 Change the location of the query by modifying the `address` variable in the `wateroff_Query.py` file. The address initially set is the address of National Yunlin University of Science and Technology.
 ```python
-address="雲林縣斗六市大學路三段123號"#Variable address should be changed to the user's address .
+address="雲林縣斗六市大學路三段123號"#Variable "address" should be changed to the user's address .
 ```
 
 ### Result of the query(The msg this script send is in Chinese,user can change it to English.)
@@ -38,4 +38,4 @@ address="雲林縣斗六市大學路三段123號"#Variable address should be cha
 
 
 ### Extended usage
-By setting up a scheduled task, the script can be executed at regular intervals to check the water supply status of the location.
+By setting up a scheduled task, the script can be executed at a time which user want to check the water supply status of the location.
