@@ -30,9 +30,9 @@ def water_shutdown():
     
     if texts.text!="":
         print("查詢結果為:停水")
-        time=query_time()
+        times=query_time()
         print("停水地區:",texts.text)
-        output_water_shutdown="查詢結果為:停水\n{}停水地區:{}\n".format(time,texts.text)
+        output_water_shutdown="查詢結果為:停水\n{}停水地區:{}\n".format(times,texts.text)
         return output_water_shutdown
     return ""
 
@@ -41,9 +41,9 @@ def water_pressurize():
     
     if texts.text!="":
         print("查詢結果為:降壓")
-        time=query_time()
+        times=query_time()
         print("降壓地區:",texts.text)
-        output_water_shutdown="查詢結果為:降壓\n{}降壓地區:{}\n".format(time,texts.text)
+        output_water_shutdown="查詢結果為:降壓\n{}降壓地區:{}\n".format(times,texts.text)
         return output_water_shutdown
     return ""
 
