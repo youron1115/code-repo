@@ -71,7 +71,7 @@ query_button.click()
 #確認是否正常供水
 output_of_normal = driver.find_element('xpath',"/html/body/div[1]/div/div[1]/div[2]/div/div[1]/span")
 
-#time.sleep(5)目的是等待網頁載入完成
+#time.sleep(5)等待網頁載入完成才能找到目標元素
 time.sleep(5)
 if output_of_normal.text=="查無案件":
     query_output="查詢結果為:正常供水"
