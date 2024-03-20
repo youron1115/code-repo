@@ -4,8 +4,17 @@ import requests
 
 import time
 
-url="https://wateroffmap.water.gov.tw/wateroffmap/map/search"
-driver=webdriver.Chrome(ChromeDriverManager().install())
+# 創建一個 Options 物件並設定 Chrome 的選項
+chrome_options = Options()
+chrome_options.add_argument("--headless")  # 啟用無頭模式
+chrome_options.add_argument("--no-sandbox")
+chrome_options.add_argument("--disable-dev-shm-usage")
+
+# 創建一個 Service 物件並指定 ChromeDriver 的路徑
+webdriver_service = Service(ChromeDriverManager().install())
+
+# 創建一個 WebDriver 物件
+driver = webdriver.Chrome(service=webdriver_service, options=chrome_options)
 driver.get(url)
 
 token='op5pgVh67ROewXEYzgB7vyaz39k4cchVeR3G1WjD1z5'
