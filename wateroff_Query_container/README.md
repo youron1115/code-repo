@@ -1,4 +1,4 @@
-# WaterOff Query web crawler and notification
+# WaterOff Query web crawler
 
 It's a WaterOff Query web crawler (adapt [WaterOff Query web crawler and notification](https://github.com/youron1115/Code-repo/tree/main/%E8%87%AA%E4%BE%86%E6%B0%B4%E4%BE%9B%E6%87%89%E9%80%9A%E7%9F%A5) for container run)
 
