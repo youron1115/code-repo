@@ -13,7 +13,7 @@ address="雲林縣斗六市大學路三段123號"
 
 query_output=""
 
-def query_time():
+def query_time() ->str:
     #print("執行query_time")
     begin_date=driver.find_element("xpath","/html/body/div/div/div[1]/div[1]/div[3]/div/div[2]/div[2]")
     begin_time=driver.find_element("xpath","/html/body/div/div/div[1]/div[1]/div[3]/div/div[2]/div[3]")
@@ -25,7 +25,7 @@ def query_time():
     
     return "供水時間:{} {}\n結束時間:{} {}\n".format(begin_date.text,begin_time.text,end_date.text,end_time.text)
 
-def water_shutdown():
+def water_shutdown() ->str:
     texts = driver.find_element("xpath", "/html/body/div/div/div[1]/div[1]/div[3]/div/div[4]/div[2]")
     
     if texts.text!="":
@@ -36,7 +36,7 @@ def water_shutdown():
         return output_water_shutdown
     return ""
 
-def water_pressurize():
+def water_pressurize() ->str:
     texts = driver.find_element("xpath", "/html/body/div/div/div[1]/div[1]/div[3]/div/div[6]/div[2]")
     
     if texts.text!="":
@@ -47,7 +47,7 @@ def water_pressurize():
         return output_water_shutdown
     return ""
 
-def lineNotifyMessage_msg(para_token,para_msg):
+def lineNotifyMessage_msg(para_token: str,para_msg :str) ->int:#return status_code
     headers={
         "Authorization":"Bearer "+ para_token,
         #"Content-Type":"application/x-www-form-urlencoded"
