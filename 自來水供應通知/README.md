@@ -1,5 +1,9 @@
 # WaterOff Query web crawler and notification
 
+*the result of running the code will depend on :
+1. if your version of your Chrome browser match your version of chromedriver.exe
+2. if the website of [TAIWAN WATER COPORATION](https://wateroffmap.water.gov.tw/wateroffmap/map/search) still exist.
+
 WaterOff Query is a web crawler and notification system that checks the status of water supply of location . It is a simple Python script that uses the `selenium` and `requests` libraries to scrape the [TAIWAN WATER COPORATION](https://wateroffmap.water.gov.tw/wateroffmap/map/search) website and send a notification to the user's LINE when wateroff_Query.py is being executed.
 
 ### Token of Line Notify
