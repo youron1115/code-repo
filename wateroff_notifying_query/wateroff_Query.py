@@ -5,8 +5,14 @@ import requests
 import time
 
 url="https://wateroffmap.water.gov.tw/wateroffmap/map/search"
-driver=webdriver.Chrome(ChromeDriverManager().install())
-driver.get(url)
+chrome_version="126.0.6478.127"
+driver=webdriver.Chrome(ChromeDriverManager(driver_version=chrome_version).install())
+try:
+    driver.get(url)
+except:
+    print("網頁載入失敗")
+    driver.quit()
+    exit()
 
 token=''
 address="雲林縣斗六市大學路三段123號"
